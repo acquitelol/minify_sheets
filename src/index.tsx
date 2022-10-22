@@ -54,16 +54,12 @@ const MinifySheets: Plugin = {
                            }
 
                            // array of all buttonRow items in the lazyActionSheet
-                           const finalLocation = res?.props?.children?.props?.children?.props?.children[1]
+                           let finalLocation = res?.props?.children?.props?.children?.props?.children[1]
                            // if any of these dont exist, it will return undefined instead of throwing an error
 
-                           finalLocation.filter(item => {
-                              return item.props.message!=='Mark Unread'
-                                 ||item.props.message!=='Mention'
-                                 ||item.props.message!=='Create Thread'
-                                 ||item.props.message!=='Feature Message'
+                           finalLocation = finalLocation.filter(item => {
+                              return item?.props?.message!='Mark Unread'&&item?.props?.message!='Mention'&&item?.props?.message!='Create Thread'&&item?.props?.message!='Feature Message'
                            })
-                              
                         })
                      });
                   }

@@ -1,6 +1,6 @@
 {
    "name": "MinifySheets",
-   "version": "1.0.0",
+   "version": "1.0.1",
    "description": "Removes unnecessary elements from Action Sheets",
    "release": "stable",
    "authors": [
