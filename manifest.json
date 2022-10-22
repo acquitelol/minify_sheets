@@ -1,11 +1,20 @@
 {
-   "name": "SilentTyping",
+   "name": "MinifySheets",
    "version": "1.0.0",
-   "description": "Silences your typing indicator.",
+   "description": "Removes unnecessary elements from Action Sheets",
+   "release": "stable",
    "authors": [
       {
-         "name": "eternal",
-         "id": "263689920210534400"
+         "name": "Acquite <3",
+         "id": "581573474296791211"
       }
-   ]
+   ],
+   "plugin": [
+      {
+         "download": "https://raw.githubusercontent.com/acquitelol/minify-sheets/main/dist/MinifySheets.js",
+         "repo": "https://github.com/acquitelol/minify-sheets",
+         "user": "https://github.com/acquitelol/"
+      }
+   ],
+   "color": "#ff1f84"
 }
